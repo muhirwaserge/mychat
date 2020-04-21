@@ -1,0 +1,93 @@
+body{
+    color:#999;
+    background-color: rgb(175, 209, 238);
+    /* background-image: url(../images/bk2.jpg); */
+    font-family: 'Roboto', sans-serif;
+    /* background-size: cover; */
+
+}
+
+.form-control{
+    min-height: 11px;
+    box-shadow: none;
+    border-color: #e1e1e1;
+}
+.form-control:focus{
+    border-color: #00cb82;
+}
+.form-control, .btn{
+    border-radius: 3px;
+}
+
+.form-header{
+    margin: -30px -30px 20px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    background: #00cb82;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+}
+.form-header h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: 'pacifico',sans-serif;
+}
+
+.form-header p{
+    margin: 20px 0 15px;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'coirgette',sans-serif;
+}
+
+.singnin-form{
+    width: 390px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.singnin-form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f0f0f0;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0,0.3);
+    padding: 30px;
+}
+
+.singnin-form .form-group{
+    margin-bottom: 20px;
+}
+
+.singnin-form label{
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    
+}
+
+.singnin-form .btn{
+    font-size: 16px;
+    font-weight: bold;
+    background: #00cb82;
+    border: none;
+    min-width: 200px;
+}
+
+.singnin-form .btn:hover, .singnin-form .btn:focus{
+    background: #00b073 !important;
+    outline: none;
+}
+
+.singnin-form a{
+    color: #00cb82;
+}
+
+.singnin-form a:hover{
+    text-decoration: underline;
+}
+
+.text-center small a{
+    text-align: center;
+}
